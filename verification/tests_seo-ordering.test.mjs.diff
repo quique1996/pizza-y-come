@@ -1,0 +1,8 @@
+--- baseline/tests/seo-ordering.test.mjs
++++ candidate/tests/seo-ordering.test.mjs
+@@ -16,4 +16,4 @@
+ 
+ test('no-JavaScript visitors have an honest complete-menu fallback, not a hidden SEO duplicate',()=>{assert.ok(components.includes('<noscript><style>'));assert.ok(components.includes('Carta de referencia completa'));assert.ok(components.includes('Sin JavaScript, puedes leer todas las categorías'));assert.ok(components.includes('catalog.items.filter(item=>item.category===group.id)'))});
+ 
+-test('only the principal hero image has high fetch priority; lower illustration is lazy',()=>{assert.equal((components.match(/fetchPriority="high"/g)||[]).length,1);assert.ok(readFileSync('components/SurrealHero.tsx','utf8').includes('loading="lazy" decoding="async"'))});
++test('only the principal hero image has high fetch priority; lower illustration is lazy',()=>{for(const hero of ['MoodboardHero','OrbitHero']) assert.equal((readFileSync('components/'+hero+'.tsx','utf8').match(/fetchPriority="high"/g)||[]).length,1,hero); assert.ok(components.includes('orbitVariant ? <OrbitHero')); for(const path of ['out/index.html','out/orbita/index.html']) if(existsSync(path)){const html=readFileSync(path,'utf8'); assert.equal((html.match(/<img[^>]*fetchPriority="high"/gi)||[]).length,1,path);}assert.ok(readFileSync('components/SurrealHero.tsx','utf8').includes('loading="lazy" decoding="async"'))});

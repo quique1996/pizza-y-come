@@ -1,0 +1,60 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pizza-y-come-next@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ cinema frames clamp input and reach each of the three chapters (5.643999ms)
+✔ AI layer appears only while composition is identified as creative (1.73247ms)
+✔ canvas backing store and DPR remain bounded across desktop/mobile (0.881016ms)
+✔ canvas has progressive static fallback and no perpetual animation loop (0.362422ms)
+✔ navigation and scene controls remain semantic and oval (0.340119ms)
+✔ new font is open licensed and source-backed sections avoid operational claims (0.617692ms)
+✔ built page includes useful static chapter content before JavaScript (0.773956ms)
+✔ short viewports get a static readable fallback with no hidden running canvas (0.253111ms)
+✔ navbar logo has no backing plate and preserves original image in a readable light variant (0.498075ms)
+✔ Orbit initialises one pending frame, caps DPR, and draws without an endless loop (5.28379ms)
+✔ Orbit hidden document cancels pending render and resumes on visibility (1.668496ms)
+✔ Orbit reduced-motion skips GSAP entrance and scroll translation (1.797272ms)
+✔ Orbit scroll schedules at most one frame and bounded translation (1.234385ms)
+✔ Orbit canvas denied still cleans up without breaking native content (1.891252ms)
+✔ Orbit zero-height measurement never creates Infinity/NaN (3.547116ms)
+✔ Orbit unmount removes listeners, observer, frame and transforms (0.954163ms)
+✔ Orbit remount produces independent lifecycle, not retained globals (1.773449ms)
+✔ Orbit honours OS reduced-motion before parent hydration updates (1.107311ms)
+✔ A-PIZZA-01: CTA cancels native hash jump then focuses menu title after scroll (3.051674ms)
+✔ A-PIZZA-01: modified click retains native link semantics and does not steal focus (1.252892ms)
+✔ A-PIZZA-01: missing target retains native fallback without claiming focus (0.903712ms)
+✔ private metadata remains noindex regardless of production build, without public identity or schema (2.13681ms)
+✔ production preparation fails closed until three explicit approvals (1.49764ms)
+✔ offline production artifacts use only approved URLs and minimal factual schema (2.05827ms)
+✔ preview source never generates served robots/sitemap or fake AI search files (0.430666ms)
+✔ no animation toggle or hidden old preference; no autonomous endless loops (0.721081ms)
+✔ Wix adapter is inert by default and cannot enable inside private preview (0.863724ms)
+✔ export keeps every documented product in HTML and no operational SEO identity (2.85402ms)
+✔ offline SEO CLI rejects served output and default unapproved config; valid fixture stays temporary (520.381379ms)
+✔ no-JavaScript visitors have an honest complete-menu fallback, not a hidden SEO duplicate (0.724497ms)
+✔ only the principal hero image has high fetch priority; lower illustration is lazy (5.917222ms)
+✔ 29 documented catalog entries with unique IDs and no price fields (2.104079ms)
+✔ category counts match the documented menu (1.468004ms)
+✔ Next, React and GSAP are installed real dependencies (2.850738ms)
+✔ ScrollTrigger, cleanup and OS reduced motion remain implemented (0.518912ms)
+✔ all intended anchors exist in the component (0.523488ms)
+✔ no operational order, payment, phone, external request or unverified campaign (0.947938ms)
+✔ source photographs and logo are unchanged (13.21534ms)
+✔ official color tokens are retained (0.190507ms)
+✔ fonts are locally hosted open-license Anton; no proprietary brand font binaries (0.65472ms)
+✔ keyboard navigation and search labels exist (0.598236ms)
+✔ static export is a real populated HTML document (0.475487ms)
+✔ small-text CTA color meets WCAG AA contrast (1.153597ms)
+✔ surreal motion supports touch/mobile, cleanup and keyboard-native controls (0.439525ms)
+✔ generated image is explicitly conceptual, not factual product photography (0.116416ms)
+✔ responsive slice encodings contain real transparency (545.598646ms)
+✔ plan navigation waits for catalog geometry and pause controls native scroll (0.614384ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 781.78145

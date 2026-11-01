@@ -1,0 +1,660 @@
+{
+  "name": "Pizza_Orbita_React_Privado_v1.1_Foco.zip",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 76,
+      "sha256": "cb588d255cd4d971391821f06359ca863d9716f148d56e2bffe718043bf9a4f8"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 679,
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7223,
+      "sha256": "c998380a66b501629ec06645e5da15fcdc5224e9c562df56de2ec6662825e7f0"
+    },
+    {
+      "path": "README_ORBITA.md",
+      "bytes": 3753,
+      "sha256": "7eb4ade16b1cb5bb409fe3bc2987cf1a64c0ccc2b9ce38b0469eb9353d61cc97"
+    },
+    {
+      "path": "app/cinema.css",
+      "bytes": 19624,
+      "sha256": "290f5be8d3a104965aba26accceb612d011d283c254c779bcc5e5d1545d32ad9"
+    },
+    {
+      "path": "app/discovery.css",
+      "bytes": 11138,
+      "sha256": "0a8f6d1380a2a520d9e74f9bf0aafcddd762aa15b933b0b7f18ecf8ee81cafa3"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 39118,
+      "sha256": "776d257644c450c08364db4d6bbbd26cb0751d221dbf8ad42a4681806e862fed"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 499,
+      "sha256": "60cdf7eeccdea9ccbc07b80638c4ea116f29a72996cb92dbc81f28f952c19422"
+    },
+    {
+      "path": "app/orbita/page.tsx",
+      "bytes": 245,
+      "sha256": "bbb18cf13c51854207534c50d6c34351b89f514272046aaeb4be0a6136e5f94a"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 123,
+      "sha256": "95ee1406dd39df6847e7163b80e7b9ea864919d56d5e51ec19bbb9bcbbbc72a7"
+    },
+    {
+      "path": "components/ArrowIcon.tsx",
+      "bytes": 383,
+      "sha256": "8ff0d8b307e33d68bc76f74293970c58d9ac99848bc3f02e25d88e9d8310dcff"
+    },
+    {
+      "path": "components/CinematicStory.tsx",
+      "bytes": 7775,
+      "sha256": "be34a3746cbd69b7219b86be045113138ef379cd51caf774ac3f06fbb4747fc0"
+    },
+    {
+      "path": "components/DiscoverySections.tsx",
+      "bytes": 8965,
+      "sha256": "20e96a05748c158e48e09b62315de6565fd0c15a69788ca16182cdece4ef2cc3"
+    },
+    {
+      "path": "components/MoodboardHero.tsx",
+      "bytes": 2216,
+      "sha256": "5574d6fff5c11d55ec8297814b3dbfefcb419cf76fe25569929534181f546b63"
+    },
+    {
+      "path": "components/OrbitHero.tsx",
+      "bytes": 4510,
+      "sha256": "07f2018a249da5858bdc339af7bde58c73f99dd71c9697ef9a99759cee96706b"
+    },
+    {
+      "path": "components/PizzaExperience.tsx",
+      "bytes": 14671,
+      "sha256": "92e22c0ed8ce1d93a6de842238e3ef44fb2d236173305051a77f6589d6798df1"
+    },
+    {
+      "path": "components/PlanSelector.tsx",
+      "bytes": 3298,
+      "sha256": "fca1e7a1e2acb2b90d69e97f237b1521cf1697d91ab905c2cba9ec38a5cdab25"
+    },
+    {
+      "path": "components/SurrealHero.tsx",
+      "bytes": 6549,
+      "sha256": "09018b2ee9ffdbfa1442cfc73ffec9d143121ef420ebfe3f7d48933a7de0f3c2"
+    },
+    {
+      "path": "components/orbit-hero.css",
+      "bytes": 2787,
+      "sha256": "f8f453e4dd0f4393c58bfe1d44fd1280bbd4214c31e93b7162f518576d2a1fe6"
+    },
+    {
+      "path": "config/production-seo.example.json",
+      "bytes": 195,
+      "sha256": "6b175347bd2c8527694288ba335256b1248439f155034d944c55d7d7227840cc"
+    },
+    {
+      "path": "docs/ANTON-LICENSE.txt",
+      "bytes": 4390,
+      "sha256": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a"
+    },
+    {
+      "path": "docs/CONTENT-SOURCES.md",
+      "bytes": 4320,
+      "sha256": "49dc940dacc92a256e29f6d3819613eb79465c5dfdf62c486cf0622c3005b1bd"
+    },
+    {
+      "path": "docs/FOTOS.md",
+      "bytes": 2141,
+      "sha256": "e2b8a8486f349ddd3eba8cbc9d7be1db92e124e2ee70e557da6dc384a1201232"
+    },
+    {
+      "path": "docs/PERMANENT-MARKER-LICENSE.txt",
+      "bytes": 11373,
+      "sha256": "044195cfd809d76ea2aaf1c8e3dd80b9fd9447227efc05e51fc906c4a451d451"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 11076,
+      "sha256": "2b12c8273b5d6e9a8f4fc023572b86968a38a7b28a23002dd834800372b88ef1"
+    },
+    {
+      "path": "docs/SEO-AI.md",
+      "bytes": 9795,
+      "sha256": "155aea71452b32f381a6ce323d0af9e2183db60da028af6763827290f9cc7066"
+    },
+    {
+      "path": "docs/asset-manifest.json",
+      "bytes": 1531,
+      "sha256": "3000df7135a020db96a610390d80539262123d587e78f08f4b2c71ebcc9e87e3"
+    },
+    {
+      "path": "docs/design/CINEMATIC-DIRECTION.md",
+      "bytes": 2931,
+      "sha256": "c3ae508ed5fc40b5bf81b10abccd99ccc851cb15860a2da3613f0f3d80cf7cb8"
+    },
+    {
+      "path": "docs/design/KAZARI-REFERENCE.md",
+      "bytes": 6636,
+      "sha256": "27a689aa5065446e9c27d2adcd897a2db12237645066ad21b358ac9b441fcab5"
+    },
+    {
+      "path": "docs/design/SURREAL-DIRECTION.md",
+      "bytes": 4374,
+      "sha256": "2c7c8c483f1e9ac5f343d0b84ff78f7a0abf403182315a79a3c5e4f843e9940e"
+    },
+    {
+      "path": "docs/design/flying-slice-original.png",
+      "bytes": 1773303,
+      "sha256": "d8310dcc3f7391306720280ab37eba35a95737658306068684145ebc6fdd548a"
+    },
+    {
+      "path": "docs/integrations/WIX-RESTAURANTS.md",
+      "bytes": 11529,
+      "sha256": "beb4f73ed46cafc42637ad2fa1f37114dcafb63042469c48d63817198a69512b"
+    },
+    {
+      "path": "lib/catalog.json",
+      "bytes": 6055,
+      "sha256": "2f36c7fce3cad888ae3d5e2059355c7e6c8daa9382653a49c254ac9b8e00008a"
+    },
+    {
+      "path": "lib/cinema-model.mjs",
+      "bytes": 1780,
+      "sha256": "e1ee49ef3b7b8a5fa0c8e6292c04124c2d1bfd0625c38ed9aaaf7271cf076b9d"
+    },
+    {
+      "path": "lib/seo.mjs",
+      "bytes": 3834,
+      "sha256": "ba5d0b2685552bf96bc01bd074af0bcfac5388fa55cc8209fb06f536b5d5b19f"
+    },
+    {
+      "path": "lib/wix-ordering.mjs",
+      "bytes": 1596,
+      "sha256": "dafd633558ac62a84dfac15853aa147defef7281e3434472bced88f0f37c2b80"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 188,
+      "sha256": "e3c3d72bfa17bb18102061a63c7e9d33ccdb6795b9de609289358f76ef262170"
+    },
+    {
+      "path": "out/404/index.html",
+      "bytes": 8710,
+      "sha256": "3614846bb349f1f7efb0406e9b1243ad399753f12bad9fbe85ad2e255c5289ab"
+    },
+    {
+      "path": "out/404.html",
+      "bytes": 8710,
+      "sha256": "3614846bb349f1f7efb0406e9b1243ad399753f12bad9fbe85ad2e255c5289ab"
+    },
+    {
+      "path": "out/__next.__PAGE__.txt",
+      "bytes": 4390,
+      "sha256": "7799505a62a67d7457354f5ea6e0ebd2a27357af751d3352c869fee9a463cc3d"
+    },
+    {
+      "path": "out/__next._full.txt",
+      "bytes": 4775,
+      "sha256": "af056734dc3900f8c75effc0a0a8c503d0838e8cdd5fab28dbbde8757f70554b"
+    },
+    {
+      "path": "out/__next._tree.txt",
+      "bytes": 218,
+      "sha256": "627a1071a3be7b0e2dd6c961591e4f803871c6b6b4d2fe7724bb00b66cfb9940"
+    },
+    {
+      "path": "out/_headers",
+      "bytes": 51,
+      "sha256": "9fb317462fd8bfe2c9f421bfc2ad027b5f2b9272f4576a7728489e0263675c11"
+    },
+    {
+      "path": "out/_next/static/chunks/170-d80e85812d5f231d.js",
+      "bytes": 243105,
+      "sha256": "199da6793b36a10b22e7191a18164813756f6a995e18dce4a75731b0fa4b4252"
+    },
+    {
+      "path": "out/_next/static/chunks/215fd5ae-d3e0de42bb4f6cce.js",
+      "bytes": 203721,
+      "sha256": "6c30380ceb363823e9279f1d04fa12f11112575b3857e74584dad1c849aa1fc1"
+    },
+    {
+      "path": "out/_next/static/chunks/697-a7e3e1da6780c070.js",
+      "bytes": 82401,
+      "sha256": "329786f75afaa28c3b16ee08a9883c1e6662dc43d0691054c1afacf91a270805"
+    },
+    {
+      "path": "out/_next/static/chunks/81-13d4790a8e9400cd.js",
+      "bytes": 51566,
+      "sha256": "387a1e64d39d06b924e4395c04ebdbdf80af92e9f966eb4e3d9e5d1c231ec65c"
+    },
+    {
+      "path": "out/_next/static/chunks/app/_global-error/page-16fe3f3372414ed1.js",
+      "bytes": 147,
+      "sha256": "1167d0460084d006004cd7201e387f12fb1cae9dbf28a0736cba95253c6253de"
+    },
+    {
+      "path": "out/_next/static/chunks/app/_not-found/page-6f151f85b5b5040d.js",
+      "bytes": 2667,
+      "sha256": "ee825f210c04893a3ad43993d039cddaf330cd2a89ee7b8d123591549f0b9f07"
+    },
+    {
+      "path": "out/_next/static/chunks/app/layout-752fea2047e67d2e.js",
+      "bytes": 299,
+      "sha256": "9faefa50ae24394e8495270bd720d5c86d68b60c05ed71a6874e0c94e1c24ffe"
+    },
+    {
+      "path": "out/_next/static/chunks/app/orbita/page-de7900da8dfa9c38.js",
+      "bytes": 134,
+      "sha256": "5466521f9d64f5c1ebe6572a15b5bb42d6e5c8d9eff68487217827d8c7967f93"
+    },
+    {
+      "path": "out/_next/static/chunks/app/page-67adf4391ccd0105.js",
+      "bytes": 134,
+      "sha256": "4511193e5ddcef5f9a6ac0abd4111ebfcc44c0f56c21fdec67c54834c81ced0f"
+    },
+    {
+      "path": "out/_next/static/chunks/d035c96b-8031934e77405750.js",
+      "bytes": 51568,
+      "sha256": "e04eafdc4722e5780a353bd8f97e90d3e2173e8adbcf8621ff76d9689796c659"
+    },
+    {
+      "path": "out/_next/static/chunks/framework-738374424a3c8205.js",
+      "bytes": 218916,
+      "sha256": "96ee5a16eeebb76592d340c071be67ecb855b0f7579fc6d995fc8ca6e31a51f4"
+    },
+    {
+      "path": "out/_next/static/chunks/main-90c0f372361184ca.js",
+      "bytes": 137443,
+      "sha256": "02b353cf1547d94220251b3984c364e0dcedf5c34143886a13a546ffb8488b68"
+    },
+    {
+      "path": "out/_next/static/chunks/main-app-85565b9d7d59f8cd.js",
+      "bytes": 511,
+      "sha256": "23fe4b0e621d67bb891da56b68388a714ddc7c800507f9481f86ef4969298977"
+    },
+    {
+      "path": "out/_next/static/chunks/next/dist/client/components/builtin/app-error-16fe3f3372414ed1.js",
+      "bytes": 147,
+      "sha256": "1167d0460084d006004cd7201e387f12fb1cae9dbf28a0736cba95253c6253de"
+    },
+    {
+      "path": "out/_next/static/chunks/next/dist/client/components/builtin/forbidden-16fe3f3372414ed1.js",
+      "bytes": 147,
+      "sha256": "1167d0460084d006004cd7201e387f12fb1cae9dbf28a0736cba95253c6253de"
+    },
+    {
+      "path": "out/_next/static/chunks/next/dist/client/components/builtin/global-error-cdf4a27318eef7bc.js",
+      "bytes": 179,
+      "sha256": "c18c170f5ddf68ee3a026746d2961f94e3057679953c26993c05ad3f3e739031"
+    },
+    {
+      "path": "out/_next/static/chunks/next/dist/client/components/builtin/not-found-16fe3f3372414ed1.js",
+      "bytes": 147,
+      "sha256": "1167d0460084d006004cd7201e387f12fb1cae9dbf28a0736cba95253c6253de"
+    },
+    {
+      "path": "out/_next/static/chunks/next/dist/client/components/builtin/unauthorized-16fe3f3372414ed1.js",
+      "bytes": 147,
+      "sha256": "1167d0460084d006004cd7201e387f12fb1cae9dbf28a0736cba95253c6253de"
+    },
+    {
+      "path": "out/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "path": "out/_next/static/chunks/webpack-d695ae65562b1453.js",
+      "bytes": 3261,
+      "sha256": "35b2c7faee089d5c117ea1088a1340ac5afce856969684a581292e214ff83069"
+    },
+    {
+      "path": "out/_next/static/css/3b6ec9a364cc4df1.css",
+      "bytes": 2700,
+      "sha256": "69bfbc019446a34e2faa4ed3cc467ed63bde6155d788c886b89733703ffcb351"
+    },
+    {
+      "path": "out/_next/static/css/977d331463003bf6.css",
+      "bytes": 69470,
+      "sha256": "c3032288421c8f2cbe239743cb3ad41d8e08d4f08c007e0da45699324d558112"
+    },
+    {
+      "path": "out/_next/static/hfBcDoc4SQw_V80sIN1_w/_buildManifest.js",
+      "bytes": 478,
+      "sha256": "e745b97efa33fb030ff8c3423c307eb8266e327c84d899b9bef57e9e116a0fea"
+    },
+    {
+      "path": "out/_next/static/hfBcDoc4SQw_V80sIN1_w/_ssgManifest.js",
+      "bytes": 80,
+      "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
+    },
+    {
+      "path": "out/_next/static/media/anton-latin-400-normal.70090b55.woff",
+      "bytes": 15632,
+      "sha256": "8b71c21962cd08b95fc2186386b121d853de5f7e02db382ed329c5a80a04c4d1"
+    },
+    {
+      "path": "out/_next/static/media/anton-latin-400-normal.8051a086.woff2",
+      "bytes": 18612,
+      "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b"
+    },
+    {
+      "path": "out/_next/static/media/permanent-marker-latin-400-normal.1406ebf1.woff",
+      "bytes": 36116,
+      "sha256": "ab8ac2bb72d48e089e37d8eefbacdfe2d74ccd48ae786d952fce9874837d2b2b"
+    },
+    {
+      "path": "out/_next/static/media/permanent-marker-latin-400-normal.d9035d7f.woff2",
+      "bytes": 29564,
+      "sha256": "4884fec2c73aa52a2461073c1b87d1ceb80f400520391b43f97ca7d3c39eeb24"
+    },
+    {
+      "path": "out/_not-found/__next._full.txt",
+      "bytes": 4795,
+      "sha256": "626981c13b47de4b130aee89632d5f6cf5dbc92ba2450253828567157a5c38db"
+    },
+    {
+      "path": "out/_not-found/__next._not-found.__PAGE__.txt",
+      "bytes": 4232,
+      "sha256": "4f25ec72e6afcc42a9e30a3108141f17b632199dac3a8727cb85a70683305633"
+    },
+    {
+      "path": "out/_not-found/__next._tree.txt",
+      "bytes": 217,
+      "sha256": "620a1a7ddf4914a394994c7d9d604d4a72f6a6c609eb8439277dee506e28b347"
+    },
+    {
+      "path": "out/_not-found/index.html",
+      "bytes": 8710,
+      "sha256": "3614846bb349f1f7efb0406e9b1243ad399753f12bad9fbe85ad2e255c5289ab"
+    },
+    {
+      "path": "out/_not-found/index.txt",
+      "bytes": 4795,
+      "sha256": "626981c13b47de4b130aee89632d5f6cf5dbc92ba2450253828567157a5c38db"
+    },
+    {
+      "path": "out/assets/flying-slice-concept-660.webp",
+      "bytes": 124920,
+      "sha256": "3aa4b98a94a60cdf7ef1de24c4269c7740664089832569ade04a7bd82606b736"
+    },
+    {
+      "path": "out/assets/flying-slice-concept.webp",
+      "bytes": 326270,
+      "sha256": "f3497060d8c0b4abc200a9c6041697928dac39db4690f4201518fc828f650218"
+    },
+    {
+      "path": "out/assets/hero-pepperoni-960.webp",
+      "bytes": 315326,
+      "sha256": "4b8b595ddac44e381d1337062de25c2b65d796ac002eb7711353732674016eeb"
+    },
+    {
+      "path": "out/assets/hero-pepperoni.webp",
+      "bytes": 761700,
+      "sha256": "96929112a82cfd6f547ab6bd0f15ce3a2485b64765e254c5e7260b7f570c9f50"
+    },
+    {
+      "path": "out/assets/logo-original.png",
+      "bytes": 107931,
+      "sha256": "a5a392182065ae1bead112dfe3ee8f62af5a20bbf4cdfbcecdb9a00bf7a99873"
+    },
+    {
+      "path": "out/assets/manos-masa-960.webp",
+      "bytes": 73874,
+      "sha256": "3f461cc25bc651443a0e8d04f172b9afb5efd05593b5ff942c41bea6c72b6b4b"
+    },
+    {
+      "path": "out/assets/orbita-study-pizza.webp",
+      "bytes": 326270,
+      "sha256": "f3497060d8c0b4abc200a9c6041697928dac39db4690f4201518fc828f650218"
+    },
+    {
+      "path": "out/assets/palitos-queso-960.webp",
+      "bytes": 121518,
+      "sha256": "621da28c7f1334b0549f346e64557cd5c59c83d57d3ae7d4074ff8ad5a99202b"
+    },
+    {
+      "path": "out/assets/pizza-cajas-960.webp",
+      "bytes": 189422,
+      "sha256": "ede54bf450f609e6d9b9251736efdbe921645238a9c27df2e04acda9af353f72"
+    },
+    {
+      "path": "out/assets/salsa-masa-960.webp",
+      "bytes": 72394,
+      "sha256": "ef44559df74a1d77ad3ce3e2bf27812ee525fc494b9f2de9f956eaa637cc2aa4"
+    },
+    {
+      "path": "out/index.html",
+      "bytes": 44749,
+      "sha256": "c837b82bcca1ce2cc6d3e97e6ca51d499fb53d89b6d0c1ffeadb0309db6e0404"
+    },
+    {
+      "path": "out/index.txt",
+      "bytes": 4775,
+      "sha256": "af056734dc3900f8c75effc0a0a8c503d0838e8cdd5fab28dbbde8757f70554b"
+    },
+    {
+      "path": "out/orbita/__next._full.txt",
+      "bytes": 5130,
+      "sha256": "c772d5c9636df57ca8aaea8e01b5e474b3d6032b9729035c6d2468c75dbfbbba"
+    },
+    {
+      "path": "out/orbita/__next._tree.txt",
+      "bytes": 267,
+      "sha256": "c7b83444eed1973ee969583b6b02a14dfc370f6b8bd2f1f6ee5a658982937bc2"
+    },
+    {
+      "path": "out/orbita/__next.orbita.__PAGE__.txt",
+      "bytes": 4548,
+      "sha256": "a94b8b13ee63e351c856de90975946f56b88c87e0d1339434417e39ff98fea84"
+    },
+    {
+      "path": "out/orbita/index.html",
+      "bytes": 44330,
+      "sha256": "13b304d49e804a6dd1529670962f1357dea80a0ad7bec3abc5a37ce6ec12b7ca"
+    },
+    {
+      "path": "out/orbita/index.txt",
+      "bytes": 5130,
+      "sha256": "c772d5c9636df57ca8aaea8e01b5e474b3d6032b9729035c6d2468c75dbfbbba"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 34613,
+      "sha256": "b510d20d7f715ae2632464dcb1d966eac2cda52aec3677e4ca8cfaf2745edb02"
+    },
+    {
+      "path": "package.json",
+      "bytes": 587,
+      "sha256": "6797a7ec5e3d64e7b4b6fffcddcea0416e1305faa01aa6b6bbbbf9ebfd4df789"
+    },
+    {
+      "path": "public/_headers",
+      "bytes": 51,
+      "sha256": "9fb317462fd8bfe2c9f421bfc2ad027b5f2b9272f4576a7728489e0263675c11"
+    },
+    {
+      "path": "public/assets/flying-slice-concept-660.webp",
+      "bytes": 124920,
+      "sha256": "3aa4b98a94a60cdf7ef1de24c4269c7740664089832569ade04a7bd82606b736"
+    },
+    {
+      "path": "public/assets/flying-slice-concept.webp",
+      "bytes": 326270,
+      "sha256": "f3497060d8c0b4abc200a9c6041697928dac39db4690f4201518fc828f650218"
+    },
+    {
+      "path": "public/assets/hero-pepperoni-960.webp",
+      "bytes": 315326,
+      "sha256": "4b8b595ddac44e381d1337062de25c2b65d796ac002eb7711353732674016eeb"
+    },
+    {
+      "path": "public/assets/hero-pepperoni.webp",
+      "bytes": 761700,
+      "sha256": "96929112a82cfd6f547ab6bd0f15ce3a2485b64765e254c5e7260b7f570c9f50"
+    },
+    {
+      "path": "public/assets/logo-original.png",
+      "bytes": 107931,
+      "sha256": "a5a392182065ae1bead112dfe3ee8f62af5a20bbf4cdfbcecdb9a00bf7a99873"
+    },
+    {
+      "path": "public/assets/manos-masa-960.webp",
+      "bytes": 73874,
+      "sha256": "3f461cc25bc651443a0e8d04f172b9afb5efd05593b5ff942c41bea6c72b6b4b"
+    },
+    {
+      "path": "public/assets/orbita-study-pizza.webp",
+      "bytes": 326270,
+      "sha256": "f3497060d8c0b4abc200a9c6041697928dac39db4690f4201518fc828f650218"
+    },
+    {
+      "path": "public/assets/palitos-queso-960.webp",
+      "bytes": 121518,
+      "sha256": "621da28c7f1334b0549f346e64557cd5c59c83d57d3ae7d4074ff8ad5a99202b"
+    },
+    {
+      "path": "public/assets/pizza-cajas-960.webp",
+      "bytes": 189422,
+      "sha256": "ede54bf450f609e6d9b9251736efdbe921645238a9c27df2e04acda9af353f72"
+    },
+    {
+      "path": "public/assets/salsa-masa-960.webp",
+      "bytes": 72394,
+      "sha256": "ef44559df74a1d77ad3ce3e2bf27812ee525fc494b9f2de9f956eaa637cc2aa4"
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "bytes": 603,
+      "sha256": "d10ee4f2fca105c985473b98f291444afa68ca6d1a4f92e62d1f1ddb4d5390ef"
+    },
+    {
+      "path": "scripts/prepare-production-seo.mjs",
+      "bytes": 1326,
+      "sha256": "536b99576897c3439793b1523c48d1ee669debebfec982d902ca15ca62c314e4"
+    },
+    {
+      "path": "tests/cinema.test.mjs",
+      "bytes": 4221,
+      "sha256": "5ebb79a68495641b12a31ab6557272676ce4eb162361b4a32efc00573886706c"
+    },
+    {
+      "path": "tests/export-integrity.py",
+      "bytes": 857,
+      "sha256": "4866e03250e95ea6addf25db33710ff6ca13dfd03b557cecde1c931871d7e66f"
+    },
+    {
+      "path": "tests/orbit-lifecycle.test.mjs",
+      "bytes": 6122,
+      "sha256": "5e2f43c16961e2df189d5eac0bff98989da879ebc9770a97953641011eadacaa"
+    },
+    {
+      "path": "tests/seo-ordering.test.mjs",
+      "bytes": 8099,
+      "sha256": "7abef4f41f973949b2c8e4295f0785a0cac64a4fb195a4ffdf69a436bb09efaa"
+    },
+    {
+      "path": "tests/site.test.mjs",
+      "bytes": 5306,
+      "sha256": "9cdea265c34b370496db1ad3ce9155704ad3a0e3ad267a54f263bbe5d7dfdcae"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 698,
+      "sha256": "86c57aa7eec3e819fc7f5f7075219d9383d4ce824b751816636e581170b7cc97"
+    },
+    {
+      "path": "verification/A-PIZZA-01.diff",
+      "bytes": 1906,
+      "sha256": "67b5d9ee5e2f8c9b0f584dba3dd67ea4fbbf01e5be68a76f015874066fabfe2e"
+    },
+    {
+      "path": "verification/A-PIZZA-01.md",
+      "bytes": 1188,
+      "sha256": "6880559ba17f87e230181554fc0d6217b88aba177bb65098b27c4dccb4bc6e64"
+    },
+    {
+      "path": "verification/ACEPTACION_JORGE.md",
+      "bytes": 2178,
+      "sha256": "f0e7c3c6fc594cf43280562254f3b6a26877debd5fb06d5395664bb81e142a60"
+    },
+    {
+      "path": "verification/TAREAS.md",
+      "bytes": 1016,
+      "sha256": "3b08797593d34af898d27cc07a9b4ebb46ee22a78887af8af594b398ab028524"
+    },
+    {
+      "path": "verification/baseline-sha256.json",
+      "bytes": 5075,
+      "sha256": "5f53110af0e7a8b281256fd8b151c5cf50475f7638e098effd80a311c12fcc79"
+    },
+    {
+      "path": "verification/components_PizzaExperience.tsx.diff",
+      "bytes": 2000,
+      "sha256": "bf8b2a5d2cc6835702d191c2af260c40e58e86b614acfecb89b805b9da02a211"
+    },
+    {
+      "path": "verification/export-integrity.json",
+      "bytes": 377,
+      "sha256": "fbca0d179836fd8bea0d8cf2bd3b0bbfef9d4d5393a8196934aaafd721358912"
+    },
+    {
+      "path": "verification/pizza-baseline-tests.txt",
+      "bytes": 4854,
+      "sha256": "1d799e7ad06e0a90c95b73d1acd0aa24e3a185e7713f3ed3562c6c510891466b"
+    },
+    {
+      "path": "verification/pizza-build-webpack.txt",
+      "bytes": 682,
+      "sha256": "ef93b752d41b86b96191cdf68daf1f3d95dcd938186e552f9e159149b6127303"
+    },
+    {
+      "path": "verification/pizza-focus-build.txt",
+      "bytes": 682,
+      "sha256": "d52927391f326c169b9f10dcb1f8a5e1019be746fd827a8736aa27cf8ad81ee2"
+    },
+    {
+      "path": "verification/pizza-focus-tests.txt",
+      "bytes": 4279,
+      "sha256": "0549f563919fddcaf7320f156a7db72cad6960d86e8eb17cfbbe4843b47f6beb"
+    },
+    {
+      "path": "verification/pizza-focus-types.txt",
+      "bytes": 152,
+      "sha256": "67ad1ed8cd5314de6345b155fb37b1e18f5303b46e4d583ff9def343404cf0a4"
+    },
+    {
+      "path": "verification/pizza-tests-final.txt",
+      "bytes": 3993,
+      "sha256": "b562409b88a4f31c4cb3613b7051baa90fe0756e4dc7c431db4f26d8f6a4f136"
+    },
+    {
+      "path": "verification/pizza-types-final.txt",
+      "bytes": 152,
+      "sha256": "67ad1ed8cd5314de6345b155fb37b1e18f5303b46e4d583ff9def343404cf0a4"
+    },
+    {
+      "path": "verification/provenance.json",
+      "bytes": 593,
+      "sha256": "4643a297a63cdf8264b510bfbdbf3a9206f4428fb51ecb5d0e4ce5d09af51e8b"
+    },
+    {
+      "path": "verification/tests_seo-ordering.test.mjs.diff",
+      "bytes": 1398,
+      "sha256": "aa52303db3ad2fc28487181db3bde34cd1d8881b54d2846e0d59025860c0ba94"
+    }
+  ]
+}

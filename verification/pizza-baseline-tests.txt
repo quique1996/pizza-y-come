@@ -1,0 +1,89 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pizza-y-come-next@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ cinema frames clamp input and reach each of the three chapters (4.103931ms)
+✔ AI layer appears only while composition is identified as creative (2.999493ms)
+✔ canvas backing store and DPR remain bounded across desktop/mobile (0.55338ms)
+✔ canvas has progressive static fallback and no perpetual animation loop (0.191077ms)
+✔ navigation and scene controls remain semantic and oval (0.407442ms)
+✔ new font is open licensed and source-backed sections avoid operational claims (0.426155ms)
+✔ short viewports get a static readable fallback with no hidden running canvas (0.469663ms)
+✔ navbar logo has no backing plate and preserves original image in a readable light variant (0.213622ms)
+✔ private metadata remains noindex regardless of production build, without public identity or schema (1.660791ms)
+✔ production preparation fails closed until three explicit approvals (1.188153ms)
+✔ offline production artifacts use only approved URLs and minimal factual schema (1.404728ms)
+✔ preview source never generates served robots/sitemap or fake AI search files (0.335692ms)
+✔ no animation toggle or hidden old preference; no autonomous endless loops (0.518314ms)
+✔ Wix adapter is inert by default and cannot enable inside private preview (0.942938ms)
+✔ offline SEO CLI rejects served output and default unapproved config; valid fixture stays temporary (856.047105ms)
+✔ no-JavaScript visitors have an honest complete-menu fallback, not a hidden SEO duplicate (0.270156ms)
+✖ only the principal hero image has high fetch priority; lower illustration is lazy (1.960166ms)
+✔ 29 documented catalog entries with unique IDs and no price fields (1.574398ms)
+✔ category counts match the documented menu (0.931994ms)
+✔ Next, React and GSAP are installed real dependencies (0.377043ms)
+✔ ScrollTrigger, cleanup and OS reduced motion remain implemented (0.321083ms)
+✔ all intended anchors exist in the component (0.461728ms)
+✔ no operational order, payment, phone, external request or unverified campaign (0.483794ms)
+✔ source photographs and logo are unchanged (5.035793ms)
+✔ official color tokens are retained (0.350821ms)
+✔ fonts are locally hosted open-license Anton; no proprietary brand font binaries (0.608629ms)
+✔ keyboard navigation and search labels exist (0.444325ms)
+✔ small-text CTA color meets WCAG AA contrast (0.541946ms)
+✔ surreal motion supports touch/mobile, cleanup and keyboard-native controls (0.291044ms)
+✔ generated image is explicitly conceptual, not factual product photography (0.644225ms)
+✔ responsive slice encodings contain real transparency (440.725951ms)
+✖ plan navigation waits for catalog geometry and pause controls native scroll (16.008798ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 30
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1031.797951
+
+✖ failing tests:
+
+test at tests/seo-ordering.test.mjs:19:1
+✖ only the principal hero image has high fetch priority; lower illustration is lazy (1.960166ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/9e07952c7c83/night-pizza-aq/pizza-orbita-react/tests/seo-ordering.test.mjs:19:102)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/site.test.mjs:24:1
+✖ plan navigation waits for catalog geometry and pause controls native scroll (16.008798ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!/[↗↘↓]/.test(tsx))
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/9e07952c7c83/night-pizza-aq/pizza-orbita-react/tests/site.test.mjs:24:410)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

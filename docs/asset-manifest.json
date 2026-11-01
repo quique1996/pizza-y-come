@@ -1,0 +1,42 @@
+{
+  "logo-original.png": {
+    "sha256": "a5a392182065ae1bead112dfe3ee8f62af5a20bbf4cdfbcecdb9a00bf7a99873",
+    "bytes": 107931
+  },
+  "hero-pepperoni.webp": {
+    "sha256": "96929112a82cfd6f547ab6bd0f15ce3a2485b64765e254c5e7260b7f570c9f50",
+    "bytes": 761700
+  },
+  "hero-pepperoni-960.webp": {
+    "sha256": "4b8b595ddac44e381d1337062de25c2b65d796ac002eb7711353732674016eeb",
+    "bytes": 315326
+  },
+  "manos-masa-960.webp": {
+    "sha256": "3f461cc25bc651443a0e8d04f172b9afb5efd05593b5ff942c41bea6c72b6b4b",
+    "bytes": 73874
+  },
+  "salsa-masa-960.webp": {
+    "sha256": "ef44559df74a1d77ad3ce3e2bf27812ee525fc494b9f2de9f956eaa637cc2aa4",
+    "bytes": 72394
+  },
+  "pizza-cajas-960.webp": {
+    "sha256": "ede54bf450f609e6d9b9251736efdbe921645238a9c27df2e04acda9af353f72",
+    "bytes": 189422
+  },
+  "palitos-queso-960.webp": {
+    "sha256": "621da28c7f1334b0549f346e64557cd5c59c83d57d3ae7d4074ff8ad5a99202b",
+    "bytes": 121518
+  },
+  "flying-slice-concept.webp": {
+    "sha256": "f3497060d8c0b4abc200a9c6041697928dac39db4690f4201518fc828f650218",
+    "bytes": 326270,
+    "origin": "Generated conceptual illustration; responsive WebP encoding, alpha preserved",
+    "original": "docs/design/flying-slice-original.png"
+  },
+  "flying-slice-concept-660.webp": {
+    "sha256": "3aa4b98a94a60cdf7ef1de24c4269c7740664089832569ade04a7bd82606b736",
+    "bytes": 124920,
+    "origin": "Generated conceptual illustration; responsive WebP encoding, alpha preserved",
+    "original": "docs/design/flying-slice-original.png"
+  }
+}

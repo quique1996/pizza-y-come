@@ -1,0 +1,27 @@
+--- baseline/components/PizzaExperience.tsx
++++ candidate/components/PizzaExperience.tsx
+@@ -7,13 +7,14 @@
+ import SurrealHero from './SurrealHero';
+ import PlanSelector from './PlanSelector';
+ import MoodboardHero from './MoodboardHero';
++import OrbitHero from './OrbitHero';
+ import CinematicStory from './CinematicStory';
+ import {PizzaFormats,EventsSection,FAQSection} from './DiscoverySections';
+ 
+ const Arrow = ({ diagonal = false }: { diagonal?: boolean }) => <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d={diagonal ? 'M5 19 19 5M5 5h14v14' : 'M4 12h16m-7-7 7 7-7 7'} stroke="currentColor" strokeWidth="1.7" strokeLinecap="square"/></svg>;
+ const Star = () => <svg aria-hidden="true" viewBox="0 0 50 50" fill="currentColor"><path d="m25 0 5 17 15-10-10 15 15 3-16 5 10 15-15-10-4 15-5-16L5 44l10-15L0 25l17-5L7 5l15 10z"/></svg>;
+ 
+-export default function PizzaExperience() {
++export default function PizzaExperience({orbitVariant=false}:{orbitVariant?:boolean}) {
+   const root = useRef<HTMLDivElement>(null);
+   const navToggle = useRef<HTMLButtonElement>(null);
+   const [navOpen, setNavOpen] = useState(false);
+@@ -105,7 +106,7 @@
+       <div className="header-controls"><button ref={navToggle} className="menu-toggle" aria-controls="site-nav" aria-expanded={navOpen} onClick={() => setNavOpen(!navOpen)}>{navOpen ? 'Cerrar' : 'Menú'}<span aria-hidden="true">{navOpen ? '−' : '+'}</span></button></div>
+     </header>
+     <main id="contenido">
+-      <MoodboardHero reduced={reduceMotion}/>
++      {orbitVariant ? <OrbitHero reduced={reduceMotion}/> : <MoodboardHero reduced={reduceMotion}/>}
+       <div className="ticker" aria-hidden="true"><div className="ticker-track">{[0,1].map(n => <div className="ticker-group" key={n}><span>PIZZA Y COME</span><Star/><span>FUERA DE ÓRBITA</span><Star/><span>DE OTRO PLAN</span><Star/></div>)}</div></div>
+       <CinematicStory reduced={reduceMotion}/>
+       <PizzaFormats onExplore={browseMenu}/>

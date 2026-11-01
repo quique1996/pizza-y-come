@@ -1,0 +1,57 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pizza-y-come-next@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ cinema frames clamp input and reach each of the three chapters (6.39229ms)
+✔ AI layer appears only while composition is identified as creative (1.83701ms)
+✔ canvas backing store and DPR remain bounded across desktop/mobile (0.408427ms)
+✔ canvas has progressive static fallback and no perpetual animation loop (0.320706ms)
+✔ navigation and scene controls remain semantic and oval (0.699585ms)
+✔ new font is open licensed and source-backed sections avoid operational claims (0.733075ms)
+✔ built page includes useful static chapter content before JavaScript (1.046752ms)
+✔ short viewports get a static readable fallback with no hidden running canvas (0.356539ms)
+✔ navbar logo has no backing plate and preserves original image in a readable light variant (0.620809ms)
+✔ Orbit initialises one pending frame, caps DPR, and draws without an endless loop (4.843896ms)
+✔ Orbit hidden document cancels pending render and resumes on visibility (1.11909ms)
+✔ Orbit reduced-motion skips GSAP entrance and scroll translation (1.11768ms)
+✔ Orbit scroll schedules at most one frame and bounded translation (1.72923ms)
+✔ Orbit canvas denied still cleans up without breaking native content (1.271952ms)
+✔ Orbit zero-height measurement never creates Infinity/NaN (1.304266ms)
+✔ Orbit unmount removes listeners, observer, frame and transforms (1.444928ms)
+✔ Orbit remount produces independent lifecycle, not retained globals (2.504812ms)
+✔ Orbit honours OS reduced-motion before parent hydration updates (1.599155ms)
+✔ private metadata remains noindex regardless of production build, without public identity or schema (1.993862ms)
+✔ production preparation fails closed until three explicit approvals (1.747043ms)
+✔ offline production artifacts use only approved URLs and minimal factual schema (2.606563ms)
+✔ preview source never generates served robots/sitemap or fake AI search files (0.436327ms)
+✔ no animation toggle or hidden old preference; no autonomous endless loops (1.244269ms)
+✔ Wix adapter is inert by default and cannot enable inside private preview (1.429415ms)
+✔ export keeps every documented product in HTML and no operational SEO identity (3.0811ms)
+✔ offline SEO CLI rejects served output and default unapproved config; valid fixture stays temporary (524.269945ms)
+✔ no-JavaScript visitors have an honest complete-menu fallback, not a hidden SEO duplicate (0.314198ms)
+✔ only the principal hero image has high fetch priority; lower illustration is lazy (1.460256ms)
+✔ 29 documented catalog entries with unique IDs and no price fields (1.709701ms)
+✔ category counts match the documented menu (1.145847ms)
+✔ Next, React and GSAP are installed real dependencies (0.627042ms)
+✔ ScrollTrigger, cleanup and OS reduced motion remain implemented (1.910127ms)
+✔ all intended anchors exist in the component (0.773231ms)
+✔ no operational order, payment, phone, external request or unverified campaign (0.600793ms)
+✔ source photographs and logo are unchanged (7.721655ms)
+✔ official color tokens are retained (0.319181ms)
+✔ fonts are locally hosted open-license Anton; no proprietary brand font binaries (0.314838ms)
+✔ keyboard navigation and search labels exist (0.497458ms)
+✔ static export is a real populated HTML document (0.804761ms)
+✔ small-text CTA color meets WCAG AA contrast (0.28841ms)
+✔ surreal motion supports touch/mobile, cleanup and keyboard-native controls (0.472763ms)
+✔ generated image is explicitly conceptual, not factual product photography (0.158962ms)
+✔ responsive slice encodings contain real transparency (389.07225ms)
+✔ plan navigation waits for catalog geometry and pause controls native scroll (1.692236ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 747.562752

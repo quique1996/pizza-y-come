@@ -1,0 +1,18 @@
+{
+  "original_modified": [],
+  "changed_in_copy": [
+    "components/PizzaExperience.tsx",
+    "tests/seo-ordering.test.mjs"
+  ],
+  "new_in_copy": [
+    "components/OrbitHero.tsx",
+    "components/orbit-hero.css",
+    "tests/orbit-lifecycle.test.mjs",
+    "app/orbita/page.tsx",
+    "public/assets/orbita-study-pizza.webp"
+  ],
+  "source_root": "/workspace/shared/pizza-next",
+  "root_route_source_identical": true,
+  "catalog_sha256": "2f36c7fce3cad888ae3d5e2059355c7e6c8daa9382653a49c254ac9b8e00008a",
+  "study_zip_sha256": "501ea2e568df0c97506d677989d1ad993f62523f733905e3c7a1dccb1ed7156c"
+}

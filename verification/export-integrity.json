@@ -1,0 +1,19 @@
+{
+  "root_visible_text_identical": true,
+  "export_routes": {
+    "index.html": {
+      "noindex": true,
+      "missing_local_assets": [],
+      "h1_count": 1,
+      "high_priority_img": 1,
+      "forms": 0
+    },
+    "orbita/index.html": {
+      "noindex": true,
+      "missing_local_assets": [],
+      "h1_count": 1,
+      "high_priority_img": 1,
+      "forms": 0
+    }
+  }
+}

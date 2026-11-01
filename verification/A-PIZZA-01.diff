@@ -1,0 +1,19 @@
+--- v1/OrbitHero.tsx
++++ v1.1/OrbitHero.tsx
+@@ -28,7 +28,15 @@
+  return <section ref={hero} className="orbit-study" id="inicio" aria-labelledby="orbit-title">
+   <canvas ref={canvas} aria-hidden="true"/>
+   <p className="orbit-eyebrow">Pizza y Come / Estudio privado Órbita</p>
+-  <div className="orbit-headline"><h1 id="orbit-title">FUERA DE<br/><em>ÓRBITA.</em></h1><p className="orbit-sub">Una nueva forma de<br/>abrir el apetito.</p><a className="orbit-pill" href="#menu" onClick={()=>document.getElementById('menu-title')?.focus({preventScroll:true})}>Explorar menú de referencia <ArrowIcon/></a></div>
++  <div className="orbit-headline"><h1 id="orbit-title">FUERA DE<br/><em>ÓRBITA.</em></h1><p className="orbit-sub">Una nueva forma de<br/>abrir el apetito.</p><a className="orbit-pill" href="#menu" onClick={event=>{
++   if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
++   const heading=document.getElementById('menu-title'),section=document.getElementById('menu');
++   if(!heading||!section)return; // Keep native hash fallback when hydration/target is unavailable.
++   event.preventDefault(); // Native #menu navigation would move focus back off #menu-title.
++   window.history.replaceState(null,'','#menu');
++   section.scrollIntoView({behavior:'instant',block:'start'});
++   heading.focus({preventScroll:true});
++  }}>Explorar menú de referencia <ArrowIcon/></a></div>
+   <div className="orbit-scene" aria-hidden="true"><div className="orbit-glow"/><img ref={slice} className="orbit-slice" src="/assets/orbita-study-pizza.webp" alt="" width="1100" height="1100" fetchPriority="high" decoding="async"/><span className="orbit-crumb orbit-c1"/><span className="orbit-crumb orbit-c2"/><span className="orbit-crumb orbit-c3"/></div>
+   <div className="orbit-foot"><span>Desliza para explorar</span><span>Imagen conceptual · Sin pedidos ni cobros</span></div>
+  </section>

@@ -1,0 +1,197 @@
+{
+  "reviewedAt": "2026-10-28",
+  "categories": [
+    {
+      "id": "pizzas",
+      "label": "Pizzas grandes"
+    },
+    {
+      "id": "combos",
+      "label": "Combos"
+    },
+    {
+      "id": "complementos",
+      "label": "Complementos"
+    },
+    {
+      "id": "bebidas",
+      "label": "Bebidas"
+    }
+  ],
+  "items": [
+    {
+      "id": "pizzas-10",
+      "category": "pizzas",
+      "name": "Pepperoni",
+      "description": "Salsa clásica de tomate, mezcla de quesos y pepperoni."
+    },
+    {
+      "id": "pizzas-08",
+      "category": "pizzas",
+      "name": "Hawaiana",
+      "description": "Salsa clásica de tomate, mezcla de quesos, jamón y piña."
+    },
+    {
+      "id": "pizzas-01",
+      "category": "pizzas",
+      "name": "Hawaironi",
+      "description": "Salsa clásica de tomate, mezcla de quesos, pepperoni, jamón y piña."
+    },
+    {
+      "id": "pizzas-02",
+      "category": "pizzas",
+      "name": "Mexicana",
+      "description": "Base de frijol, mezcla de quesos, queso extra, chorizo, elote, cebolla morada y jalapeño."
+    },
+    {
+      "id": "pizzas-04",
+      "category": "pizzas",
+      "name": "Imperial",
+      "description": "Salsa clásica de tomate, mezcla de quesos, salchicha, salami, jamón, pimiento verde, champiñón, chorizo y cebolla morada."
+    },
+    {
+      "id": "pizzas-03",
+      "category": "pizzas",
+      "name": "Vegetariana",
+      "description": "Salsa clásica de tomate, extra queso, aceituna negra, elote, pimiento verde, champiñón y cebolla morada."
+    },
+    {
+      "id": "pizzas-05",
+      "category": "pizzas",
+      "name": "Sartén",
+      "description": "Opciones documentadas: pepperoni, imperial, vegetariana, mexicana, Hawaironi, especial super cheese y hawaiana."
+    },
+    {
+      "id": "pizzas-06",
+      "category": "pizzas",
+      "name": "Pastor sin orillas",
+      "description": "Carne al pastor, salsa clásica, mezcla de quesos y piña."
+    },
+    {
+      "id": "pizzas-07",
+      "category": "pizzas",
+      "name": "Super cheese",
+      "description": "Salsa clásica de tomate, mezcla de quesos, pepperoni y extra de parmesano."
+    },
+    {
+      "id": "pizzas-09",
+      "category": "pizzas",
+      "name": "1 ingrediente",
+      "description": "Salsa clásica de tomate, mezcla de quesos y un ingrediente a elegir. Opciones por confirmar."
+    },
+    {
+      "id": "pizzas-11",
+      "category": "pizzas",
+      "name": "De queso",
+      "description": "Salsa clásica de tomate y mezcla de quesos."
+    },
+    {
+      "id": "pizzas-12",
+      "category": "pizzas",
+      "name": "4x4",
+      "description": "Cuatro especialidades en una sola pizza. La ficha de referencia no especifica cuáles."
+    },
+    {
+      "id": "pizzas-13",
+      "category": "pizzas",
+      "name": "Orilla bocaditos",
+      "description": "Pizza grande clásica con orilla bocaditos. La ficha de referencia no añade ingredientes."
+    },
+    {
+      "id": "combos-01",
+      "category": "combos",
+      "name": "2 grandes orilla bocaditos",
+      "description": "Dos pizzas grandes con orilla de dedos de queso y tres ingredientes a elegir."
+    },
+    {
+      "id": "combos-02",
+      "category": "combos",
+      "name": "Doble calzone",
+      "description": "Dos calzones, dos ingredientes, un refresco familiar y dip."
+    },
+    {
+      "id": "combos-03",
+      "category": "combos",
+      "name": "Clásico",
+      "description": "Pizza grande clásica pepperoni, cheese sticks, refresco familiar y dip."
+    },
+    {
+      "id": "combos-04",
+      "category": "combos",
+      "name": "Bocaditos",
+      "description": "Pizza grande de tres ingredientes, orilla bocaditos, papas gajo, refresco familiar y dip."
+    },
+    {
+      "id": "combos-05",
+      "category": "combos",
+      "name": "Antojito extra",
+      "description": "Dos complementos y un dip Spicy Brothers. Opciones documentadas: pan parmesano, cheese stick y papas gajo."
+    },
+    {
+      "id": "complementos-01",
+      "category": "complementos",
+      "name": "Alitas",
+      "description": "Alitas de pollo, 350 g, bañadas en salsa de elección. Sabores por confirmar."
+    },
+    {
+      "id": "complementos-02",
+      "category": "complementos",
+      "name": "Tenders",
+      "description": "350 g, salsa de elección y dip ranch. Sabores por confirmar."
+    },
+    {
+      "id": "complementos-03",
+      "category": "complementos",
+      "name": "Pan glaseado",
+      "description": "Pan glaseado. La ficha de referencia no especifica la cantidad."
+    },
+    {
+      "id": "complementos-04",
+      "category": "complementos",
+      "name": "Pan parmesano",
+      "description": "Pan parmesano. La ficha de referencia no especifica la cantidad."
+    },
+    {
+      "id": "complementos-05",
+      "category": "complementos",
+      "name": "Papas gajo",
+      "description": "Papas gajo horneadas, 220 g."
+    },
+    {
+      "id": "complementos-06",
+      "category": "complementos",
+      "name": "Dipers",
+      "description": "Seis orillas de pizza rellenas de queso mozzarella con aderezo a escoger."
+    },
+    {
+      "id": "complementos-07",
+      "category": "complementos",
+      "name": "Dips",
+      "description": "Dips. La ficha de referencia no incluye lista de sabores."
+    },
+    {
+      "id": "bebidas-01",
+      "category": "bebidas",
+      "name": "Coca-Cola",
+      "description": "Presentaciones documentadas: 600 mL y 1.75 L. Disponibilidad actual por confirmar."
+    },
+    {
+      "id": "bebidas-02",
+      "category": "bebidas",
+      "name": "Sprite",
+      "description": "Presentaciones documentadas: 600 mL y 1.75 L. Disponibilidad actual por confirmar."
+    },
+    {
+      "id": "bebidas-03",
+      "category": "bebidas",
+      "name": "Sidral",
+      "description": "Presentaciones documentadas: 600 mL y 1.75 L. Disponibilidad actual por confirmar."
+    },
+    {
+      "id": "bebidas-04",
+      "category": "bebidas",
+      "name": "Fanta",
+      "description": "Presentaciones documentadas: 600 mL y 1.75 L. Disponibilidad actual por confirmar."
+    }
+  ]
+}

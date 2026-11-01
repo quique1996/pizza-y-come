@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.sites-runtime/
+*.tsbuildinfo
+.env*
+!.env.example
+
+# Also ignore a locally linked dependency directory
+node_modules
